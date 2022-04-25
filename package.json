@@ -1,13 +1,13 @@
 {
   "name": "developers-portfolio",
   "description": "A personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.",
-  "homepage": "http://hashirshoaeb.com/home",
+  "homepage": "http://michaeldoria.com/home",
   "version": "2.0.0",
   "private": true,
   "author": {
-    "name": "Hashir Shoaib",
-    "email": "hashirshoaeb@gmail.com",
-    "url": "https://github.com/hashirshoaeb"
+    "name": "Michael Doria",
+    "email": "michael.doria99@gmail.com",
+    "url": "https://github.com/Doria99"
   },
   "dependencies": {
     "axios": "^0.19.2",

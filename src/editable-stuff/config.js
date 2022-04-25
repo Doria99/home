@@ -6,30 +6,30 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Michael",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "Doria",
+  message: "Appassionato di tecnologie innovative.",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
+      url: "https://github.com/Doria99",
     },
     {
       image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
+      url: "https://www.facebook.com/michael.doria.ytct",
     },
     {
       image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://www.instagram.com/michael.doria99/",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/michael-doria-791b85169/",
     },
     {
       image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://www.twitter.com/MichaelDoria15/",
     },
   ],
 };
@@ -50,12 +50,12 @@ const mainBody = {
 
 const about = {
   show: true,
-  heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  heading: "Mi presento",
+  imageLink: require("../editable-stuff/img.png"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "Ciao a tutti mi chiamo Michael Doria. Fin da piccolo ho coltivato la passione verso la tecnologia e l'informatica. Ho studiato informatica all'ITIS E.Fermi di Lucca dove mi sono diplomato nel 2018, anno in cui ho iniziato a studiare informatica presso l'università di Pisa dove sto ancora attualmente studiando e dove vorrei proseguire con una laurea magistrale in intelligenza artificiale. Dal 2019 al 2021 ho lavorato presso Hastega come sviluppatore di applicazioni mobile iOS. PS. il curriculum ha assolutamente bisogno di essere aggiornato!",
+  resume: "https://drive.google.com/file/d/1Ut0RKhIGHq5wwZucCL9FqzJG907GEJO4/view?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -65,8 +65,8 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
+  heading: "Progetti recenti",
+  gitHubUsername: "Doria99", //i.e."johnDoe12Gh"
   reposLength: 4,
   specificRepos: [],
 };
@@ -78,15 +78,15 @@ const leadership = {
   message:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
-    { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+    {
+      img: require("../editable-stuff/img.png"),
+      label: "First slide label",
+      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum."
     },
-    { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+    {
+      img: require("../editable-stuff/img.png"),
+      label: "Second slide label",
+      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum."
     },
   ],
   imageSize: {
@@ -98,51 +98,57 @@ const leadership = {
 // SKILLS SECTION
 const skills = {
   show: true,
-  heading: "Skills",
+  heading: "Skills, framework e strumenti",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
+    { name: "C/C++", value: 100 },
+    { name: "Swift", value: 100 },
+    { name: "Java", value: 95 },
+    { name: "JavaScript", value: 80 },
+    { name: "Solidity", value: 70 },
+    { name: "Python", value: 75 },
+    { name: "SQL", value: 80 },
+    { name: "GO", value: 60 },
     { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "HTML/CSS", value: 80 },
+    { name: "PHP", value: 75 },
+    { name: "Wordpress", value: 80 },
+    { name: "Bootstrap", value: 85 },
+    { name: "Angular", value: 85 },
+    { name: "Node.js", value: 65 },
+    { name: "Docker", value: 75 },
+    { name: "Heroku", value: 60 },
+    { name: "Git", value: 100 },
+    { name: "Firebase", value: 60 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Orientato all'obiettivo", value: 80 },
+    { name: "Collaborativo", value: 85 },
+    { name: "Versatile", value: 85 },
+    { name: "Problem Solving", value: 90 },
+    { name: "Empatico", value: 95 },
+    { name: "Organizzato", value: 100 },
+    { name: "Creativo", value: 60 },
+    { name: "Perfezionista", value: 100 },
   ],
 };
 
 // GET IN TOUCH SECTION
 const getInTouch = {
   show: true,
-  heading: "Get In Touch",
+  heading: "Rimaniamo in contatto",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "Attualmente mi sto concentrando sugli studi e non sono alla ricerca di posizioni lavorative, in ogni caso vi lascio la mia email per potermi contattare.",
+  email: "michael.doria99@gmail.com",
 };
 
 const experiences = {
   show: false,
-  heading: "Experiences",
+  heading: "Esperienze",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
-    },
-    {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'iOS mobile Developer',// Here Add Company Name
+      companylogo: require('../assets/img/hastega.svg'),
+      date: 'Gennaio 2019 – 2021',
     },
   ]
 }
