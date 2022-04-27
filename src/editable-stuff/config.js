@@ -31,6 +31,14 @@ const mainBody = {
       image: "fa-twitter",
       url: "https://www.twitter.com/MichaelDoria15/",
     },
+    {
+      image: "fa-bitcoin",
+      url: "https://opensea.io/Michael99",
+    },
+    {
+      image: "fa-ethereum",
+      url: "https://crypto.com/nft/profile/mayk_1999?tab=collectibles",
+    },
   ],
 };
 
@@ -101,24 +109,24 @@ const skills = {
   heading: "Skills, framework e strumenti",
   hardSkills: [
     { name: "C/C++", value: 100 },
-    { name: "Swift", value: 100 },
     { name: "Java", value: 95 },
-    { name: "JavaScript", value: 80 },
-    { name: "Solidity", value: 70 },
-    { name: "Python", value: 75 },
-    { name: "SQL", value: 80 },
-    { name: "GO", value: 60 },
-    { name: "React", value: 65 },
+    { name: "Swift", value: 93 },
+    { name: "PHP", value: 80 },
     { name: "HTML/CSS", value: 80 },
-    { name: "PHP", value: 75 },
-    { name: "Wordpress", value: 80 },
-    { name: "Bootstrap", value: 85 },
-    { name: "Angular", value: 85 },
-    { name: "Node.js", value: 65 },
-    { name: "Docker", value: 75 },
-    { name: "Heroku", value: 60 },
-    { name: "Git", value: 100 },
-    { name: "Firebase", value: 60 },
+    { name: "SQL", value: 75 },
+    { name: "JavaScript", value: 75 },
+    { name: "Wordpress", value: 75 },
+    { name: "Git", value: 75 },
+    { name: "Bootstrap", value: 68 },
+    { name: "Angular", value: 68 },
+    { name: "Python", value: 63 },
+    { name: "React", value: 60 },
+    { name: "Solidity", value: 60 },
+    { name: "Docker", value: 55 },
+    { name: "Node.js", value: 30 },
+    { name: "GO", value: 25 },
+    { name: "Firebase", value: 25 },
+    { name: "Heroku", value: 20 },
   ],
   softSkills: [
     { name: "Orientato all'obiettivo", value: 80 },
@@ -127,14 +135,14 @@ const skills = {
     { name: "Problem Solving", value: 90 },
     { name: "Empatico", value: 95 },
     { name: "Organizzato", value: 100 },
-    { name: "Creativo", value: 60 },
+    { name: "Creativo", value: 90 },
     { name: "Perfezionista", value: 100 },
   ],
 };
 
 // GET IN TOUCH SECTION
 const getInTouch = {
-  show: true,
+  show: false,
   heading: "Rimaniamo in contatto",
   message:
     "Attualmente mi sto concentrando sugli studi e non sono alla ricerca di posizioni lavorative, in ogni caso vi lascio la mia email per potermi contattare.",
@@ -142,12 +150,12 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Esperienze",
   data: [
     {
       role: 'iOS mobile Developer',// Here Add Company Name
-      companylogo: require('../assets/img/hastega.svg'),
+      companylogo: require('../assets/img/hastega.jpeg'),
       date: 'Gennaio 2019 – 2021',
     },
   ]
